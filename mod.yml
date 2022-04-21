@@ -1,0 +1,12 @@
+title: Better Boss Scaling
+description: Removes the problem of datas being stuck at lv 99, bosses with varying HP on Wild, and bosses on Prison Keeper & Sephiroth crashing on data/Terra arenas.
+assets:
+#Various Stuff
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: enmp #Halve MCP's HP & Remove Terra and Datas' Fixed Levels
+    type: list
+    method: copy
+    source:
+    - name: Enmp.bin
